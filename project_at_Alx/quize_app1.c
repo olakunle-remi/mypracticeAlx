@@ -8,10 +8,10 @@ int point1,point2,point3,point4,point5,point6,point7,point8,point9,point10;
 int point01,point02,point03,point04,point05,point06,point07,point08,point09,point010;
 int total1,total2,total3,
 
-print("  Welcome to the Game\n\n");
+printf("Welcome to the Game\n\n");
 
-print("> press 7 to start the game\n");
-print("> press 0 to quite the game\n");
+printf("> press 7 to start the game\n");
+printf("> press 0 to quite the game\n");
 
 scanf("%d", &i);
 
@@ -46,7 +46,7 @@ if(i==7)
 	else
 	{
 		printf("Wrong Answer\n");
-		poin01=0;
+		point01=0;
 		printf("you have scored %d point\n", point01);
 	}
 	printf("2) which one is the first web browser invented in 1990?\n\n");
@@ -80,7 +80,7 @@ if(i==7)
 
 	printf("Enter you Answer: ");
 	scanf("%d", &ans3);
-	if(ans==2)
+	if(ans3==2)
 	{
 		printf(" Correct Answer");
 		point3 = 5;
@@ -90,7 +90,7 @@ if(i==7)
 	{
 		printf(" Wrong Answer ");
 		point03 = 0;
-		prinft("you have scored %d point\n", point03);
+		printf("you have scored %d point\n", point03);
 	}
 
 	printf("4) fireWall in computer is used for?\n\n");
